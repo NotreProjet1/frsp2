@@ -1,0 +1,102 @@
+
+.cours-list {
+  font-family: Arial, sans-serif;
+  background-color: #1ba5a7e0;
+}
+
+.cours-card {
+  border: 2px solid #080909; /* Couleur de la bordure */
+  border-radius: 10px;
+  margin-bottom: 20px; /* Marge en bas de chaque carte */
+  margin-right: 20px; /* Marge à droite de chaque carte */
+  padding: 20px;
+  background-color: #ffffff;
+  width: 30%; /* Largeur de chaque carte */
+  display: inline-block; /* Affichage en ligne pour permettre à deux cartes par ligne */
+  vertical-align: top; /* Alignement vertical en haut */
+}
+
+
+.cours-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cours-description {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.cours-file-link {
+  display: block;
+  color: #007bff;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.cours-file-link:hover {
+  text-decoration: underline;
+}
+
+.cours-details-link {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.cours-details-link:hover {
+  text-decoration: underline;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-box {
+  position: relative;
+  width: 310px; /* Réduire la largeur de la barre de recherche */
+  margin-top: 30px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  border: 1px solid #000000; /* Ajouter une bordure bleue */
+  border-radius: 5px; /* Ajouter un arrondi aux coins */
+  display: flex; /* Utiliser flexbox pour centrer verticalement */
+
+}
+
+
+.search-box input[type="text"] {
+  flex: 1; /* Utiliser tout l'espace disponible */
+  padding: 8px; /* Réduire l'espacement à l'intérieur de la zone de recherche */
+  border: none; /* Supprimer la bordure par défaut */
+  outline: none; /* Supprimer la bordure de mise au point */
+
+}
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+ 
+  background-color: transparent; 
+  text-decoration:    #f2f3f4;;
+}
+.search-icon {
+  margin-right: 8px; /* Ajouter un espacement entre l'icône et la zone de recherche */
+  color: #030303; /* Couleur de l'icône */
+  cursor: pointer; /* Afficher un curseur de pointeur au survol */
+  margin-top: 15px;
+}
+.Ccustom-title {
+  color: #fefcfd; 
+  text-align: center; /* Centrage horizontal */
+  font-size: 24px; /* Taille de la police */
+  font-weight: bold; /* Gras */
+  padding-top: 20px;
+}
+.recherche{
+  color: #000000;
+  
+}
+

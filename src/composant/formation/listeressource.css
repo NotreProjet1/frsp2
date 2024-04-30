@@ -1,0 +1,83 @@
+/* styles.css */
+
+.searchh-conttainer {
+  margin: 20px;
+  background: linear-gradient(to top, #00ffff, #ffffff);
+
+}
+
+.searchh-box {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Pour centrer horizontalement */
+  margin-bottom: 20px;
+}
+
+.searchh-box input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #060505;
+  width: 300px;
+  margin-left: 10px; /* Ajoutez un espace entre l'icône et le champ de recherche */
+}
+
+.searchh-icon {
+  color: #333;
+  cursor: pointer;
+  margin-left: -30px; /* Ajustez la position de l'icône pour qu'elle soit dans le champ de recherche */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cours-cardddd {
+
+  width: calc(30.33% - 20px);
+  margin: 10px;
+  margin-left: 40px
+}
+
+.cardddd {
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+
+  background-color: #f0f0f0;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+.cardddd-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.cardddd-content {
+  padding: 10px;
+}
+
+.cours-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cours-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.cours-file-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+}
+
+.cours-file-link:hover {
+  text-decoration: underline;
+}
